@@ -11,3 +11,9 @@ Python model simulating 24-hour passenger dynamics, bike-sharing fleet redistrib
 ```bash
 pip install -r requirements.txt
 python simulation.py
+```
+
+# Simulation independent variables
+* **Simulation Start ('a'):** Starting hour of simulation (Default: '0' hours / Start of day 1).
+* **Simulation Horizon ('b'):** End hour of simulation (Default: '48' hours / End of day 2).
+* **Sampling Interval ('dt'):** Time between data points on graph (Default: '0.1' hours / 10 data points per hour)
