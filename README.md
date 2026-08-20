@@ -1,6 +1,6 @@
 # MBS-MIS Station Flow Simulation
 
-Python model simulating 24-hour passenger dynamics, bike-sharing fleet redistribution, and train dwell times for MBS-MIS transit station.
+Python model simulating up to 168-hours of passenger dynamics, bike-sharing fleet redistribution, and train dwell times for MBS-MIS transit station.
 
 # Key Features
 * **Dynamic Passenger Profiling:** Models morning (08:00) and evening (18:00) peak demand flows.
