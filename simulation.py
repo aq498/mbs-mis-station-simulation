@@ -1,9 +1,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
-# start and stop time
-a = 0
-b = 48
-hours = np.arange(a, b, 0.1)
+
+# independent simulation variables
+a = 0 # simulation start time 0-196
+b = 48 # simulation stop time 0-196
+dt = 0.1 # sampling interval (hour)
+
+hours = np.arange(a, b, dt) 
 n = len(hours)
 day_time = hours % 24
 
